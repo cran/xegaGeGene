@@ -9,14 +9,14 @@ CodonPrecision(cv, pCrit)
 \arguments{
 \item{cv}{Choice vector of a context-free grammar.}
 
-\item{pCrit}{Threhold for choice bias.}
+\item{pCrit}{Threshold for choice bias.}
 }
 \value{
 Precision of codon.
 }
 \description{
 For automatic determination of the least codon precision for grammar evolution 
-             with an upper threshold on the choice bias of for the substitution of all
+             with an upper threshold on the choice bias for the substitution of all
              non-terminal symbols.
 }
 \examples{
@@ -26,8 +26,8 @@ For automatic determination of the least codon precision for grammar evolution
 }
 \seealso{
 Other Diagnostics: 
-\code{\link{CodonChoiceBiasesDeprecated}()},
 \code{\link{CodonChoiceBiases}()},
+\code{\link{CodonChoiceBiasesDeprecated}()},
 \code{\link{tLCM}()}
 }
 \concept{Diagnostics}

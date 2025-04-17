@@ -44,8 +44,8 @@ This could be done with the help of
 }
 \seealso{
 Other Diagnostics: 
-\code{\link{CodonChoiceBiasesDeprecated}()},
 \code{\link{CodonChoiceBiases}()},
+\code{\link{CodonChoiceBiasesDeprecated}()},
 \code{\link{CodonPrecision}()}
 }
 \concept{Diagnostics}

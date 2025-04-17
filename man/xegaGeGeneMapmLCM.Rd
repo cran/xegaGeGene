@@ -24,12 +24,12 @@ Integer vector.
 }
 \details{
 Using the interval of \code{1} to \code{numbers::mLCM(1:m)}
-         provides a the least common multiple of all prime factors 
+         provides the least common multiple of all prime factors 
          of the numbers in the interval \code{1:m}.
          This corresponds to the bucket rule of Keijzer et al. (2002).
          For 16-bit precision, the highest number of rules
          for the same non-terminal symbols is 12.
-         For 8-bit precision,this reduces to 6.
+         For 8-bit precision, this reduces to 6.
          With 64-bit integer arithmetic, the bucket rule works up to 
          42 rules starting with the same non-terminal.
 }
@@ -51,6 +51,7 @@ Keijzer, M., O'Neill, M., Ryan, C. and Cattolico, M. (2002)
 \seealso{
 Other Decoder: 
 \code{\link{xegaGeDecodeGene}()},
+\code{\link{xegaGeDecodeGeneDT}()},
 \code{\link{xegaGeGeneMapMod}()}
 }
 \concept{Decoder}

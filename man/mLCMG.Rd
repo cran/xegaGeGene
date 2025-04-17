@@ -28,7 +28,7 @@ For removing the bias of the modulo rule in
          See Keijzer et al. (2002).
          However, if the mLCM and \code{2^k} are relative prime, it is impossible 
          to find an unbiased binary coding.
-         The choice bias is considerable lower than for \code{MinCodonPrecision()}.
+         The choice bias is considerably lower than for \code{MinCodonPrecision()}.
 }
 \examples{
 library(xegaBNF)

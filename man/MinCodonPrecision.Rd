@@ -9,11 +9,11 @@ MinCodonPrecision(LHS, ...)
 \arguments{
 \item{LHS}{Vector of Integers. The left-hand side of a grammar object \code{G}.}
 
-\item{...}{Unused. Needed for common abstract interface of 
+\item{...}{Unused. Needed for the common abstract interface of 
 precision functions.}
 }
 \value{
-Integer.  The Precision of a codon whose upper bound is the least power of 2 
+Integer.  The precision of a codon whose upper bound is the least power of 2 
         above the maximum number of rules for a non-terminal of a grammar.
 }
 \description{

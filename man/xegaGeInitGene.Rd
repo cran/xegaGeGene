@@ -10,11 +10,11 @@ xegaGeInitGene(lF)
 \item{lF}{the local configuration of the genetic algorithm}
 }
 \value{
-a binary gene (a named list):
+A binary gene (a named list):
         \itemize{
-        \item \code{$evaluated}: FALSE. See package \code{xegaEvalGene}
+        \item \code{$evaluated}: FALSE. See package \code{xegaSelectGene}
         \item \code{$evalFail}:  FALSE. Set by the error handler(s)
-                                 in package \code{xegaEvalGene} 
+                                 in package \code{xegaSelectGene} 
                                  in the case of failure.
         \item \code{$fit}:       Fitness vector.
         \item \code{$gene1}:     Binary gene.
@@ -26,16 +26,13 @@ a binary gene (a named list):
 }
 \details{
 In the binary representation of 
-         package \code{xega}, \emph{gene} is a list with 
+         package \code{xegaGeGene}, a \emph{gene} is a list with 
          \enumerate{
          \item \code{$evaluated} Boolean: TRUE if the fitness is known.
          \item \code{$fit}       The fitness of the genotype of 
                                  \code{$gene1}         
          \item \code{$gene1}     a bit string (the genetopye).
          }
-
-         This representation makes several code optimizations
-         and generalizations easier.
 }
 \examples{
 xegaGeInitGene(lFxegaGeGene)

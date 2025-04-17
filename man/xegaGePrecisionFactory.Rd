@@ -38,6 +38,7 @@ CodonPrecision(NT, 0.1)
 }
 \seealso{
 Other Configuration: 
+\code{\link{xegaGeDecodeGeneFactory}()},
 \code{\link{xegaGeGeneMapFactory}()}
 }
 \concept{Configuration}

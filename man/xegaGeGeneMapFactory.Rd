@@ -23,8 +23,8 @@ Gene map function for genes.
              Current support:
 
              \enumerate{
-             \item "Mod" returns \code{GeneMapMod()}. (Default).
-             \item "Bucket" returns \code{GeneMapmLCM()}.
+             \item "Mod" returns \code{xegaGeGeneMapMod()}. (Default).
+             \item "Bucket" returns \code{xegaGeGeneMapmLCM()}.
              }
 }
 \examples{
@@ -34,6 +34,7 @@ XGene(gene$gene1, lFxegaGeGene)
 }
 \seealso{
 Other Configuration: 
+\code{\link{xegaGeDecodeGeneFactory}()},
 \code{\link{xegaGePrecisionFactory}()}
 }
 \concept{Configuration}

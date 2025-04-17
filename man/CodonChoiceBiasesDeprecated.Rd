@@ -15,7 +15,7 @@ CodonChoiceBiasesDeprecated(cv, precision)
 Data frame with the following columns
         \itemize{
         \item \code{$precision}: Number of bits.
-        \item \code{$cv}:   i-th element of choice vector.
+        \item \code{$cv}:   i-th element of choice the vector.
         \item \code{$dp}:   Deviation from choice with equal probability for \code{$precision}.
         \item \code{$dH}:   Entropy difference between choice with equal probability 
                             and biased choice for \code{$precision}.

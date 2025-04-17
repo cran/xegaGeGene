@@ -45,6 +45,7 @@ Keijzer, M., O'Neill, M., Ryan, C. and Cattolico, M. (2002)
 \seealso{
 Other Decoder: 
 \code{\link{xegaGeDecodeGene}()},
+\code{\link{xegaGeDecodeGeneDT}()},
 \code{\link{xegaGeGeneMapmLCM}()}
 }
 \concept{Decoder}

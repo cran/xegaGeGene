@@ -9,11 +9,11 @@ mLCMGCodonPrecision(LHS, ...)
 \arguments{
 \item{LHS}{Vector of Integers. The left-hand side of a grammar object \code{G}.}
 
-\item{...}{Unused. Needed for common abstract interface of 
+\item{...}{Unused. Needed for the common abstract interface of 
 precision functions.}
 }
 \value{
-Integer. The precision of a codon whose upper bound is larger than 
+Integer. The precision of a codon whose upper bound is larger than the
         least common multiple of the prime factors of the 
         vector of the available rules 
         for each non-terminal of a grammar.
